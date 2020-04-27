@@ -27,6 +27,7 @@ div > div {
 }
  div > p {
 	clear:right;
+	padding: 10px 5px 10px 6px;
 	margin:1px 10px 5px 10px;
 	font-size: 16px;
 	font-family:   Verdana, sans-serif
