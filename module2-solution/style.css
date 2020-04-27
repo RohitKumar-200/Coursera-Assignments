@@ -18,8 +18,6 @@ div > div {
 	text-align: center;
 	border-top:0px;
 	border-right:0px;
-	border-bottom:2px solid black;
-	border-left:2px solid black;
 	width: 150px;
 	float: right;
 	font-family: comic sans ms,Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
@@ -48,8 +46,6 @@ div > div {
 @media (min-width: 992px) {
 	.col-lg-4 {
 	  margin:1%;
-	}
-	.col-lg-4 {
 	  width: 31.33%;
 	}
   }
@@ -68,8 +64,8 @@ div > div {
   }
   /********Small device only **********/
   @media (max-width: 767px) {
-	col-sm-12 {
-	  margin:1%;
+	.col-sm-12 {
+	  margin: 1%;
 	  width: 98%;
 	}
   }
