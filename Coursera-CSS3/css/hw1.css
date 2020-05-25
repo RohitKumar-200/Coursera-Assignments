@@ -1,0 +1,121 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 8px;
+}
+header {
+	margin: 30px auto 0px;
+	background: url(../images/flywheel.jpg) no-repeat;
+	padding: 10px;
+	width: 940px;
+	box-shadow: 5px 5px 5px #0707072e;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	font-size: 35px;
+	text-shadow: 1px 1px 2px #314d11, 0 0 25px #00ff08c9, 0 0 5px #036123;
+}
+h2 {
+	line-height: 50px;
+	color: #b24505;
+}
+nav a{
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	width: 20%;
+	line-height: 40px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	color: #000;
+	margin: 2%;
+}
+a:hover , a:focus{
+	background-color: rgba(255, 255, 255, 0.4);
+}
+.active {
+	background-color: rgba(255, 255, 255, 1) !important;
+	font-weight: bolder;
+}
+main {
+	width: 960px;
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px #0707072e;
+	height: 464px;
+}
+.left {
+	width:200px;
+	padding: 15px;
+	float: left;
+	background-color: #9ba900;
+}
+.left img {
+	width:200px;
+	vertical-align: middle;
+	margin: 7px auto;
+	border: 2px solid #000;
+}
+.right {
+	width: 720px;
+	margin: 0 auto;
+	padding: 5px;
+	float: left;
+	height: 455px;
+	background-color: #f9f4fa;
+}
+
+/* -------------------------------------------------------------- */
+
+table {
+	margin: 15px auto 0px;
+	box-shadow: 3px 3px 3px #0707072e;
+}
+tr {
+	text-align: center;
+}
+tr th:first-child, tr td:first-child {
+	text-align: left;
+}
+th {
+	background-image: linear-gradient(#c0d76b,#92a353);
+	color: #fff;
+	font-family: sans-serif, "Times New Roman", Times, serif;
+	font-size: 17px;
+	font-weight: 800;
+	text-shadow: -1px 0 #000;
+	line-height: 20px;
+	padding: 10px;
+	border: 1px solid #abd451;
+    border-bottom: 2px solid #abd451;
+	border-radius: 2px 2px 0px 0px;
+}
+td {
+	background-color: #c4e1a8;
+	padding: 5px 10px 5px 10px;
+	font-family: sans-serif, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 19px;
+	color: #8f1e1e;
+	border-radius: 2px;
+	text-shadow: 1px 1px #e1aeae;
+}
+tr {
+	opacity: 0.7;
+	transition-property: opacity;
+}
+tr:first-child {
+	opacity: 1;
+}
+tr:hover {
+	opacity: 1;
+}
+th {
+	color: #fff;
+    text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
+             0 3px 0 #777777, 0 4px 0 #666666;
+}
